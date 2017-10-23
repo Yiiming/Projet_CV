@@ -1,0 +1,198 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 0px) and (max-width: 992px) {
+
+	.skillMobile{
+		padding-top: 10px;
+		height: 40px;
+		border-radius: 5px;
+		background-color: #24445C;
+	}
+	
+	.skillBorder{
+		border-right: 2px solid #FFF;
+	}
+	
+	.borderSkill{
+		padding-top: 10px;
+		height: 40px;
+		border-radius: 5px;
+		background-color: #24445C;
+	}
+
+	.fa{
+		font-size: 1.3em!important;
+	}
+
+	.size{
+		font-size: 0px;
+	}
+
+	.isDesktop{
+		display:none;
+	}
+
+	.slideM{
+		display: none;
+	}
+	
+	.panel {
+		width: 100%;
+		height: 700px;
+		z-index:0; 
+		-webkit-transform: translateZ( 0 );
+		transform: translateZ( 0 );
+		-webkit-transition: -webkit-transform 0.6s ease-in-out;
+		transition: transform 0.6s ease-in-out;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px){
+	
+	h3{
+		
+	}
+	
+	.titreDev{
+		font-family: 'Lobster', cursive;
+		margin-top: -15px;
+		font-weight: italic;
+		color:#24445C;
+	}
+	
+	
+	
+	.skillBorder{
+		border-right: 2px solid #FFF;
+	}
+	
+	.borderSkill{
+		padding-top: 10px;
+		height: 40px;
+		border-radius: 5px;
+		background-color: #24445C;
+	}
+
+	.isMobile{
+		display:none;
+	}
+
+	.panel {
+		width: 100%;
+		height: 500px;
+		z-index:0; 
+		-webkit-transform: translateZ( 0 );
+		transform: translateZ( 0 );
+		-webkit-transition: -webkit-transform 0.6s ease-in-out;
+		transition: transform 0.6s ease-in-out;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	.skill:hover{
+		color:black;
+		opacity: 0.5;
+		transition: all 450ms ease-in-out;
+	}
+
+	.skill{
+		transition:all 450ms ease-in-out;
+	}
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////GENERAL CSS ///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
+}
+
+.parallax-mirror{
+	top: -70px!important;
+}
+
+.dropdown:hover .dropdown-menu {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+h1{
+	font-family: 'Scada', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #03224C;
+	margin-left: 15px;
+	/*text-shadow: -2px -2px 3px ;*/
+}
+
+.titreDev{
+	font-family: 'Lobster', cursive;
+	margin-top: -15px;
+	font-weight: italic;
+	color:#24445C;
+	font-size:20px;
+}
+
+h2, h3, h4, h5, h6{
+	font-family: 'Lobster', cursive;
+	font-size: 1.3em;
+}
+
+p, label{
+	font-family: 'Scada', sans-serif;
+	font-size: 1.2em;
+}
+
+.skill{
+	font-family: 'Scada', sans-serif;
+	text-transform: uppercase;
+	color:#FFF;
+	cursor: pointer;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size:1.3em;
+}
+
+.progress{
+	background-color: grey;
+}
+
+.progress-bar{
+	background-color: #24445C;
+}
+
+.skillP{
+	margin-top:0px;
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
