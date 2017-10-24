@@ -55,11 +55,27 @@
 	}
 
 	#experience{
-		height: 750px;
+		height: 600px;
 	}
 
 	#education{
 		height: 300px;
+	}
+
+	.label-default{
+		font-size: 12px;
+		margin-left: 5px;
+		background-color: #24445C;
+		padding-bottom: 2px;
+		padding-top: 5px;
+	}
+
+	.titreExp{
+		font-family: 'Scada', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		text-transform: uppercase;
+		color:#24445C;
 	}
 }
 
@@ -114,6 +130,21 @@
 
 	#education{
 		height: 300px;
+	}
+
+	.label-default{
+		background-color: #24445C;
+		margin-left: 15px;
+		padding-bottom: 2px;
+		padding-top: 5px;
+	}
+
+	.titreExp{
+		font-family: 'Scada', sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+		text-transform: uppercase;
+		color:#24445C;
 	}
 }
 
@@ -210,14 +241,6 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 	font-size: 20px;
 	text-align: center;
 	height: 50px;
-}
-
-.titreExp{
-	font-family: 'Scada', sans-serif;
-	font-weight: bold;
-	font-size: 22px;
-	text-transform: uppercase;
-	color:#24445C;
 }
 
 .sousTitreExp{
